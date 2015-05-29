@@ -1,0 +1,549 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+
+body>div{
+	 background-color:#0099cc;
+	 height:5px;
+}
+
+#cuerpo{
+	width:1000px;
+	margin:0;
+	padding:0;
+	margin-left:15%;
+	border-collapse:collapse;
+}
+
+#cuerpo tbody{
+	margin:0;
+}
+
+#cuerpoInt{
+	padding-top:10px;
+}
+
+#EuroBanner{
+	height:50px;
+}
+
+#contBanner2{
+	float:right;
+	padding:0;
+	
+}
+
+#redes{
+	padding-left:120px;
+}
+
+#rectangulo{
+	background-image:url(imagenes/fondoRectang.png);
+	background-repeat:no-repeat;
+	width:300px;
+	height:40px;
+	position:relative;
+	top:35px;
+	right:40px;
+	-moz-transform:   skew(-15deg);
+	-webkit-transform:   skew(-15deg);
+	-o-transform:   skew(-15deg);
+	-ms-transform:   skew(-15deg);
+}
+
+#telefonos{
+	background-color:#003366;
+	/*background-image:url(imagenes/fondoTelefono.png);*/
+	height:45px;
+	padding-top:3px;
+	width:300px;
+	position:relative;
+	z-index:2;
+	top:18px;
+	left:20px;
+	-moz-transform:   skew(-15deg);
+	-webkit-transform:   skew(-15deg);
+	-o-transform:   skew(-15deg);
+	-ms-transform:   skew(-15deg);
+	
+}
+
+#labelTel{
+	background-color:#FFFFFF;
+	height:25px;
+	width:280px;
+	margin-top:3px;
+	position:relative;
+	right:10px;
+}
+
+#encTel{
+	color:#003399;
+	font-weight:600;	
+}
+
+#numTel{
+	color:#003366;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:400;
+	
+}
+
+#bannerUnidadess{
+	width:1000px;
+}
+
+aside{
+	float:right;
+	width:294px;
+	
+	
+}
+
+.modulo{
+	border:1px solid #0099cc;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+
+.modulo>div>p{
+	color:black;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:17px;
+	margin:10px;
+	margin-top:0;
+	text-align:center;
+}
+
+#contenidoLatNot{
+	padding:5px;
+}
+
+.contMinCal{
+	padding:3px;
+	border:1px solid #d2d2d2;
+}
+
+.titMinCal{
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+	height:25px;
+	width:65px;
+	font-weight:600;
+	text-align:center;
+	padding-top:5px;
+	background: -moz-linear-gradient( #5298C2 , #003366);
+	background: -webkit-linear-gradient( #5298C2 , #003366);	
+	background: -o-linear-gradient( #5298C2 , #003366);	
+	background: -ms-linear-gradient( #5298C2 , #003366);	
+}
+
+.contMiniCal{
+	height:38px;
+	padding-top:2px;
+	text-align:center;
+	color:#003366;
+	font-size:36px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	background: -moz-linear-gradient( #D3D3D3 , #FFFFFF);
+	background: -webkit-linear-gradient( #D3D3D3 , #FFFFFF);
+	background: -o-linear-gradient( #D3D3D3 , #FFFFFF);
+	background: -ms-linear-gradient( #D3D3D3 , #FFFFFF);
+}
+
+.pLatNot{
+	color:#666666;
+	font-size:18px;
+	padding-left:5px;
+	width:190px;
+	size:3;
+	
+}
+
+.leerMas{
+	color:#0099cc;	
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+}
+
+.titulos{
+	background: -moz-linear-gradient(center top , #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -webkit-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -o-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -ms-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);	
+	padding-left:15px;
+	-moz-transform:   skew(-15deg);
+	-webkit-transform:   skew(-15deg);
+	-o-transform:   skew(-15deg);
+	-ms-transform:   skew(-15deg);
+	padding-top:2px;
+	height:30px;
+}
+
+.titulos div{
+	-moz-transform:  skew(15deg);
+	-webkit-transform:  skew(15deg);
+	-o-transform:  skew(15deg);
+	-ms-transform:  skew(15deg);
+	color:#FFFFFF;
+	font-size:20px;
+}
+
+.titulosMedianos{
+	background: -moz-linear-gradient(center top , #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);	
+	background: -webkit-linear-gradient(#0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);	
+	background: -o-linear-gradient(#0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -ms-linear-gradient(#0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	color:#FFFFFF;
+	padding-left:15px;	
+	padding-top:6px;
+	font-size:20px;
+	height:33px;
+}
+
+.contInterior{
+	width:65%;
+	padding:0 2% 0 2%;
+	float:left;
+	overflow:hidden;
+	whiteSpace: nowrap;
+	
+}
+
+.latInterior{
+
+}
+
+.contenidoCuerpo{
+	padding:10px;
+	color:#666666;
+	font-size:17px;
+	padding-left:5px;
+	text-align:justify;
+}
+
+
+
+footer{
+
+	height:41px;
+	background-image: -moz-linear-gradient(center top , #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background-image: -webkit-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background-image: -o-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background-image: -ms-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+    /*background-image:url(imagenes/fondoMenu.png);*/
+	position:relative;
+	z-index:3;
+	-moz-transform:   skew(-15deg);
+	-webkit-transform:   skew(-15deg);
+	-o-transform:   skew(-15deg);
+	-ms-transform:   skew(-15deg);
+	text-align:center;
+	color:white;
+}
+
+#redesFoot{
+	margin-top:10px;
+	float:right;
+	height:35px;
+}
+
+footer div{	
+	-moz-transform:  skew(15deg);
+	-webkit-transform:  skew(15deg);
+	-o-transform:  skew(15deg);
+	-ms-transform:  skew(15deg);
+	margin-left:10px;
+	margin-right:10px;
+	font: bold 16px Trebuchet MS;	
+	padding-top:10px;	
+	/*font: normal 17px Trebuchet MS;*/
+	font-weight:600;
+	display:inline-block;
+	
+}
+
+.boton{
+	background: -moz-linear-gradient( #5298C2 , #003366);
+	background: -webkit-linear-gradient( #5298C2 , #003366);
+	background: -o-linear-gradient( #5298C2 , #003366);
+	background: -ms-linear-gradient( #5298C2 , #003366);
+	color:white;
+	font-size:18px;
+	padding:8px 20px 8px 20px;
+}
+
+#botonBeneficios{
+	text-align:center;
+	background: -moz-linear-gradient( #0099cc , #003366);
+	background: -webkit-linear-gradient( #0099cc , #003366);
+	background: -o-linear-gradient( #0099cc , #003366);
+	background: -ms-linear-gradient( #0099cc , #003366);
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color:white;
+	width:450px;
+	font-size:16px;
+	padding:8px 20px 8px 20px;
+	-moz-transform:   skew(-15deg);
+	-webkit-transform:   skew(-15deg);
+	-o-transform:   skew(-15deg);
+	-ms-transform:   skew(-15deg);
+
+}
+
+#botonBeneficios a{
+	color:white;
+}
+
+#botonBeneficios div{
+	-moz-transform:   skew(15deg);
+	-webkit-transform:   skew(15deg);
+	-o-transform:   skew(15deg);
+	-ms-transform:   skew(15deg);
+}
+
+
+#imgSenes{
+	height:90px;
+	width:230px;
+	margin:10px;
+}
+
+#EuroBanner{
+	width:500px;
+	height:100px;
+
+}
+
+#masNoticias{
+		 text-align:center; margin-top:10px;
+
+}
+#masNoticiasArr{
+		 text-align:center; margin:10px 0 10px 0;
+		 display:none;
+
+}
+
+.textEnc{
+	color:#003366;
+	font-family:  Calibri , Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+
+.campoContac{
+	border:1px solid #666666;
+	width:99%;
+	height:25px;
+	font-size:18px;
+	padding-left:5px;
+}
+
+.botonCont{
+	background-color:#003366;
+	color:white;
+	padding:5px 15px 5px 15px;
+	font-weight:bold;
+	border:0;
+	
+}
+
+.contFotoExp{
+	float:left;
+	margin:0px 15px 10px 0px;
+}
+
+.fotoExp{
+	width:200px;
+	height:150px;	
+	border:1px solid #66ACD7;
+	display:inline-block;
+}
+
+.titArticulo{
+	color:#003366;
+	font-family:  Calibri , Helvetica, sans-serif;
+	font-size:24px;
+	
+}
+
+.subTitArticulo{
+	color:#666666;
+	font-family:  Calibri , Helvetica, sans-serif;
+	font-size:18px;
+	
+}
+
+a{
+	text-decoration:none;
+}
+
+.prensa {
+	font-size:20px;
+	color:#0278A6;
+}
+
+.prensa:hover{
+	
+	color:#04C0C2;
+}
+
+.modulo li{
+	text-align:left;
+}
+
+#tbodyAdmin{	
+	border:2px solid #7E7E7E;
+	padding:0px;
+	background-color:#F9F9F0;
+}
+
+.tituloFormAdmin{
+	background: -moz-linear-gradient( #98C8E4 , #50A0D1);
+	background: -webkit-linear-gradient( #98C8E4 , #50A0D1);
+	background: -o-linear-gradient( #98C8E4 , #50A0D1);
+	background: -ms-linear-gradient( #98C8E4 , #50A0D1);
+	height:30px;
+	font-size:22px;
+	font-weight:bold;
+	padding:3px 0px 0px 15px;
+	color:white;
+	border:1px solid #266A93;
+	
+}
+
+.tituloForm{
+	background: -webkit-linear-gradient( #98C8E4 , #50A0D1);
+	background: -moz-linear-gradient( #98C8E4 , #50A0D1);
+	background: -o-linear-gradient( #98C8E4 , #50A0D1);
+	background: -ms-linear-gradient( #98C8E4 , #50A0D1);
+
+	height:25px;
+	font-size:18px;
+	font-weight:bold;
+	padding:0px 0px 0px 15px;
+	color:white;
+	border:1px solid #266A93;
+	
+}
+
+#tablaForm{	
+	width:90%;
+	margin:5%;
+	margin-top:0;
+	border:2px solid #7E7E7E; 
+}
+
+.vistaPrevia{
+	border:1px solid #C8C888;
+}
+
+.label{
+	
+	font-size:16px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;	
+	font-weight:500;
+}
+
+.labelCampo{
+}
+
+.textbox{
+	width:95%;
+	border:1px solid #C8C888;
+	padding:3px;
+}
+
+#pagExp{
+	text-align:center;
+	height:25px;
+	width:100%;
+	margin-bottom:10px;
+	font-family:Trebuchet MS, Arial, Helvetica, Sans-Serif;
+}
+
+#pagExp a{
+		border:1px solid #ccc;
+		background:#DAF3F8;
+		color:#555;
+		padding:1px 8px;
+		text-decoration:none;
+}
+
+#pagExp a:hover{
+	background:#5DC9E1;
+	color:#fff;
+}
+
+#pagExp .actPag{
+	background:#5DC9E1;
+	color:#fff;
+	padding:1px 8px;
+}
+
+.menFlot{
+	/*background-color:#F2F2E3;*/
+	color:#F72020;
+	font-size:17px;
+	margin:10px;
+	/*border: 1px solid black;
+	height:25px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	-khtml-border-radius:4px;
+	 border-radius:4px;*/
+}
+
+.menTextVacio{
+	border:1px solid #F72020;
+}
+
+#textoMensaje{
+	width:60%;
+	margin-left:20%;
+	margin-bottom:20px;
+	display:none;
+}
+
+#intTexMen{
+	padding:10px;
+}
+
+#intTexMen textarea{
+	width:98.5%;
+	height:300px;
+	font-size:18px;
+}
+
+#sessionUser{
+	float:right;
+	font-size:16px;
+	margin-right:10px;
+	padding-top:10px;
+	text-shadow: 1px 1px 1px #FFFFFF;
+	font-size: 14px;
+    font-weight: bold;
+	color:black;
+}
+
+#contMsgErr{
+	margin-left:10px;
+	margin-right:10px;
+	border:1px solid red;
+	
+}
+
+#contMsgErr div{
+	margin:15px;
+	border:1px solid red;
+	padding:10px;
+}

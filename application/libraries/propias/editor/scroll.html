@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Scroll</title>
+<link rel="stylesheet" media="screen" type="text/css" href="jquery.cleditor.css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.cleditor.js"></script>
+<script>
+	$(function()
+{
+	$('#textA').cleditor({
+	    width:'1000',
+		height:'600'
+//		imagesPath:'http://images/'
+//	    axis: 'y',
+//        scroll:true,
+//		asdf:200,
+//		scrollbarWidth: 200,
+//		scrollbarMargin: 1000,
+//		showArrows: true,
+//		sizethumb :'auto'
+		
+//		axis: 'x' -- Vertical or horizontal scroller? 'x' or 'y'.
+//        wheel: 40 -- How many pixels must the mouswheel scrolls at a time.
+//        scroll: true -- Enable or disable the mousewheel.
+//        lockscroll: true -- Return scrollwheel event to browser if there is no more content.
+//        size: 'auto' -- Set the size of the scrollbar to auto or a fixed number.
+//        sizethumb: 'auto' -- Set the size of the thumb to auto or a fixed number.
+//        invertscroll: false -- Enable mobile invert style scrolling.
+	});
+});
+</script>
+</head>
+
+<body>
+<div id ="ag" width="1300"><textarea id="textA"></textarea>
+<!--<table width="3000" border="1">
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>-->
+</div>
+</body>
+</html>

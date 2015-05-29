@@ -1,0 +1,181 @@
+/**
+ *********************************************
+ * Prototype of styles for horizontal CSS-menu
+ * @data 30.06.2009
+ *********************************************
+ * (X)HTML-scheme:
+ *  <div id="menu">
+ *      <ul class="menu">
+ *          <li><a href="#" class="parent"><span>level 1</span></a>
+ *              <ul>
+ *                  <li><a href="#" class="parent"><span>level 2</span></a>
+ *                      <ul><li><a href="#"><span>level 3</span></a></li></ul>
+ *                  </li>
+ *              </ul>
+ *          </li>
+ *          <li class="last"><a href="#"><span>level 1</span></a></li>
+ *      </ul>
+ *  </div>
+ *********************************************
+ */
+
+/* menu::base */
+#padreMenu{
+	
+	
+}
+
+#menu {
+    height:41px;
+	background: -moz-linear-gradient(center top , #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -webkit-linear-gradient(#0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -o-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: -ms-linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: linear-gradient( #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+	background: linear-gradient(center top , #0099cc, #5298C2 45%, #4B95C0 46%, #4591BE 50%, #326D92 51%, #003366);
+   /* background-image:url(imagenes/fondoMenu.png);*/
+	position:relative;
+	z-index:3;
+	-moz-transform:   skew(-15deg);
+	-webkit-transform:   skew(-15deg);
+	-o-transform:   skew(-15deg);
+	-ms-transform:   skew(-15deg);
+	transform:   skew(-15deg);
+	
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+   /* float: left;*/
+}
+#menu ul.menu {
+    padding-left: 30px;
+}
+
+#menu li {
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 0 40px 0 0;
+    display: block;
+    float: left;
+	
+}
+
+#menu li:hover {
+	background-image: -moz-linear-gradient(center top , #003366, #336666 50%,  #003366 51%, #003366);
+	background-image: -webkit-linear-gradient(center top , #003366, #336666 50%,  #003366 51%, #003366);
+	background-image: -o-linear-gradient(center top , #003366, #336666 50%,  #003366 51%, #003366);
+	background-image: -ms-linear-gradient(center top , #003366, #336666 50%,  #003366 51%, #003366);
+}
+#menu li:hover>ul {
+    left: -2px;
+}
+
+#menu a {
+    position: relative;
+    z-index: 10;
+    height: 41px;
+    display: block;
+    float: left;
+    line-height: 41px;
+    text-decoration: none;
+    font: bold 16px Trebuchet MS;
+	-moz-transform:   skew(15deg);
+	-webkit-transform:   skew(15deg);
+	-o-transform:   skew(15deg);
+	-ms-transform:   skew(15deg);
+}
+#menu a:hover, #menu a:hover span { color: #fff; }
+#menu li.current a {}
+
+#menu span {
+    display: block;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+}
+#menu ul ul a.parent span {
+    background-position:95% 8px;
+    background-image: url(images/item-pointer.gif);
+}
+#menu ul ul a.parent:hover span {
+    background-image: url(images/item-pointer-mover.gif);
+}
+
+/* menu::level1 */
+#menu a {
+    padding: 0 10px 0 10px;
+    line-height: 30px;
+    color: white;
+}
+#menu span {
+    margin-top: 5px;
+}/**@replace#1*/
+/*div#menu li { background: url(images/main-delimiter.png) 98% 4px no-repeat; }*/
+#menu li.last { background: none; }
+
+/* menu::level2 */
+#menu ul ul li { background: none; }
+#menu ul ul {
+    position: absolute;
+    top: 38px;
+    left: -999em;
+    width: 163px;
+    padding: 5px 0 0 0;
+    background: rgb(45,45,45);
+    margin-top:1px;
+}
+#menu ul ul a {
+    padding: 0 0 0 15px;
+    height: auto;
+    float: none;
+    display: block;
+    line-height: 24px;
+    color: rgb(169,169,169);
+}
+#menu ul ul span {
+    margin-top: 0;
+    padding-right: 15px;
+    _padding-right: 20px;
+    color: rgb(169,169,169);
+}
+#menu ul ul a:hover span {
+    color: #fff;
+}
+#menu ul ul li.last { background: none; }
+#menu ul ul li {
+    width: 100%;
+}
+
+/* menu::level3 */
+#menu ul ul ul {
+    padding: 0;
+    margin: -38px 0 0 163px !important;
+    margin-left:172px;
+}
+
+/* colors */
+#menu ul ul ul { background: rgb(41,41,41); }
+#menu ul ul ul ul { background: rgb(38,38,38); }
+#menu ul ul ul ul { background: rgb(35,35,35); }
+
+/* lava lamp */
+#menu li.back {
+    background: url(images/lava.png) no-repeat right -44px !important;
+    background-image: url(images/lava.gif);
+    width: 13px;
+    height: 44px;
+    z-index: 8;
+    position: absolute;
+    margin: -1px 0 0 -5px;
+}
+#menu li.back .left {
+    background: url(images/lava.png) no-repeat top left !important;
+    background-image: url(images/lava.gif);
+    height: 44px;
+    margin-right: 8px;
+}
+

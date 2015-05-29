@@ -1,0 +1,333 @@
+.fm-titulo{
+	height:24px;
+	color:#365027;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:16px;
+	padding-top:3px;
+	padding-left:10px;
+	background-color: #86B57D;
+	background-image: -moz-linear-gradient(center top , #E0ECD9, #AED0B5 45%, #87B57D 46%, #86B57D 50%, #9FC497 51%, #B6D2B0);
+}
+
+.fm-titulo-texto{
+	color:#274069;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.fm-titulo2{
+	background-color:#C2D8C4;
+	background-image:none;
+	/*background-image: -moz-linear-gradient(center top , #F9F9F9, #E3E4E6);*/
+	
+}
+
+.fm-titulo3{
+	/*background-image:url(img/fm-fondoTitulo3.png);*/
+	/*background-color:#D3E1F1;*/
+	background-image: -moz-linear-gradient(center top , #F9F9F9, #E3E4E6);
+	background-image: -webkit-linear-gradient( #F9F9F9, #E3E4E6);
+	background-image: -o-linear-gradient( #F9F9F9, #E3E4E6);
+	background-image: -ms-linear-gradient( #F9F9F9, #E3E4E6);
+}
+
+.fm-form{
+	/*background-image:url(img/fm-fondoForm.png);	*/
+	background-color:#E3EEDD;
+}
+
+
+.fm-elemAlterna{
+	background-color:#F3F8F4;
+}
+
+.fm-activado{
+	background-color: #DEECFD;
+	background-image: -moz-linear-gradient(center top , #FFFFFF, #F5F9FE 25%, #DEECFD 45%);
+}
+
+.fm-desactivado{
+	background-color:#DEECFD;
+	 background-image: -moz-linear-gradient(center top , #CCDEF6, #D6E6FA 25%, #DEECFD 45%);
+}
+
+.fm-activadoUnion{
+	background-color:#DEECFD;
+}
+
+.fm-borde{
+	/*border:1px solid #2C4158;*/	
+	border:1px solid #3D572D;	
+}
+
+.fm-borde2{
+	border:1px solid #CFDCBE;
+}
+.fm-borde3{
+	border:1px solid #80a8d5;
+}
+.fm-borde-transparent{
+	border:1px solid transparent;
+}
+.fm-borde-redondeado{
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-o-border-radius:4px;
+	-ms-border-radius:4px;
+	-khtml-border-radius:4px;
+	border-radius:4px;
+	/*padding:1px 1px 1px 1px;*/
+	/*border-width:1px;
+	border-style:solid;*/
+		
+	/*border-radius:4px 4px 4px 4px;	
+	webkit-border-radius:4px 4px 4px 4px;	
+	moz-border-radius:4px 4px 4px 4px;	*/
+}
+
+.fm-borde-redondeadoSup{	
+	-moz-border-radius:4px 4px 0px 0px;
+	-webkit-border-radius:4px 4px 0px 0px;
+	-o-border-radius:4px 4px 0px 0px;
+	-ms-border-radius:4px 4px 0px 0px;
+	-khtml-border-radius:4px 4px 0px 0px;
+	border-radius:4px 4px 0px 0px;
+	/*padding:1px 1px 1px 1px;*/
+	/*border-width:1px;
+	border-style:solid;*/	
+}
+
+.fm-borde-redondeadoInf{	
+	-moz-border-radius:0px 0px 4px 4px;
+	-webkit-border-radius:0px 0px 4px 4px;
+	-o-border-radius:0px 0px 4px 4px;
+	-ms-border-radius:0px 0px 4px 4px;
+	-khtml-border-radius:0px 0px 4px 4px;
+	border-radius:0px 0px 4px 4px;
+	/*padding:1px 1px 1px 1px;*/
+	/*border-width:1px;
+	border-style:solid;*/	
+}
+
+.fm-boton{
+	background-color:#3F673D;
+	height:22px;
+	color:#FFFFFF;
+	font-weight:500;
+	border:1px solid #054365;
+	margin:2px;
+}
+/* Esto es de la pagina principal y le menu*/
+.fm-pagPrincipal{
+  background-color:#e1f3f7;
+  margin:10px;
+  width:1200px;
+  height:99%;
+}
+.item{
+ 	 background-image:url(img/fondoMenu.png);
+	 font-family:Arial, Helvetica, sans-serif;
+	 float:left; 
+	 padding:8px;
+	 padding-right:25px;
+	 font-weight: bold;
+	 width:80px;
+	 font-size:15px;
+}
+.divCont{
+	background-color: white;
+    position: absolute;
+	z-index:2px;
+	border:1px solid #DADADA;
+	border-top:none;
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.subItem{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 7px;	
+	padding-right: 20px;
+    background-color: white;		
+    display: block;
+}
+.fm-menu{
+	margin:0;
+	background-color:#ABC7EC;
+	background-image: -moz-linear-gradient(center bottom, #e6eef0 , #ABC7EC, #ABC7EC, #ABC7EC,#e6eef0);
+}
+.fm-item{
+	 background-image:none;
+	 font-family:Helvetica, Tahoma, sans-serif;
+	 font-weight:600;
+	 font-size:14px;
+	 color:#2e0572;
+}
+.fm-submenu{
+	background-color:#ABC7EC;
+	padding:0;
+}
+.fm-item-focus{
+    background-color: #CBDDF3;
+	background-image: -moz-linear-gradient(center top , #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3);
+}
+.fm-divCont{
+	background-color: white;
+    position: absolute;
+	z-index:2px;
+	border:1px solid #DADADA;
+	border-top:none;
+	width: 200px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.fm-subItem{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 7px;	
+	padding-right: 20px;
+    background-color: white;		
+    display: block;
+}
+
+
+
+
+
+/***********************************************************/
+
+/*----------------------------Scroll-----------------------------------------------*/
+.scroll-contX{
+	background-color:#D3E1F1;
+	/*background-image: -moz-linear-gradient(center top , #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3);*/
+}
+
+.scroll-contY{
+	background-color:#D3E1F1;
+	/*background-image: -moz-linear-gradient(center top , #DAE7F6, #CDDEF3 45%, #ABC7EC 46%, #ABC7EC 50%, #B8CFEE 51%, #CBDDF3);*/
+}
+
+.scroll-bordeCont{
+	border:1px solid #99BBE8;
+}
+
+.scroll-botonX{
+	background-color: #abd7e7;
+	border:1px solid #99BBE8;
+	/*background-image: -moz-linear-gradient(center top , #DAE7F6, #CDDEF3 10%, #ABC7EC 10%, #ABC7EC 10%, #B8CFEE 10%, #CBDDF3);*/
+}
+
+.scroll-botonXHover{
+	border:1px solid #437c92;
+	background-color: #83b3c5;
+}
+
+.scroll-botonYHover{
+	border:1px solid #437c92;
+	background-color: #83b3c5;
+}
+
+.scroll-botonY{
+	background-color: #abd7e7;
+	border:1px solid #99BBE8;
+	/*background-image: -moz-linear-gradient(center top , #DAE7F6, #CDDEF3 10%, #ABC7EC 10%, #ABC7EC 10%, #B8CFEE 10%, #CBDDF3);*/
+}
+
+.scroll-bordeInvisible{
+	/*Esto es para poner un borde a los botones de desplazar el scroll, la idea es que este borde sea del mismo color del fondo del scroll para que no se note, solo cuando se entra al scroll, pero si se quiere se puede poner de otro color*/
+	border:1px solid #D3E1F1;
+}
+
+.scroll-despX{
+	background-color: #83b3c5;
+}
+
+.scroll-despY{
+	background-color: #83b3c5;
+}
+
+.scroll-bordeDesp{
+	border:1px solid #437c92;
+}
+
+
+/* -----------------------------------------------Listado-------------------------------------------*/
+.numFila {
+	font-weight:bold;
+	text-align:center;
+	padding-top:2px;
+	height:23px;
+	
+	
+}
+
+.labelList{
+	font-size:17px;
+	padding:0px 2px 0px 5px;
+	padding-top:2px;
+}
+
+.cantXPag{
+	background-image: -moz-linear-gradient(center top , #F9F9F9, #E3E4E6);
+	height:23px;
+	margin-right:7px;
+	/*position:relative;*/
+	/*bottom:2px;*/
+	color:#29507E;
+	font-weight:500;
+	border:1px solid #3D572D;
+}
+
+.filaVacia{
+	height:25px;
+	font-size:18px;
+	padding-left:10px;
+	padding-top:2px;
+	color:#274069;
+}
+
+.contPag{
+	font-size:17px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-bottom:4px;
+	color:#365027;
+	font-weight:bold;
+}
+
+.pagNumeros{
+	margin:2px;
+}	
+
+.pagNumeros:hover{
+	cursor:pointer;
+}
+
+/*--------------------------------------------seleccionar-----------------------------------*/
+
+.seleccionado{
+	background-color:#5BA9D7;
+}
+
+.seleccionando{
+	background-color:#8BC1E2;
+}	
+
+/*-------------------------------------------Formulario----------------------------------------*/
+
+.fm-text{
+	font-family: tahoma,arial,verdana,sans-serif;
+	border: 1px solid #B5B8C8;
+	background-image: -moz-linear-gradient(#e6e6e6, #ffffff 50%);
+	width:95%;
+}
+
+.fm-label{
+	color:#274069;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.fm-cerrarBtn:hover{
+	background-image:url(img/icn-cerrarHover.png);
+}
+	

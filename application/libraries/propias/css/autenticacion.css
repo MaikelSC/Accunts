@@ -1,0 +1,110 @@
+#d_plantilla{
+ background-color:#EFEFEF;
+ height:720px;
+ /*width:'100%';*/
+ border:2px solid #1f3214;
+ border-top:0px;
+ /*border-collapse:collapse;*/
+}
+#t_plantilla{
+ border-collapse:collapse;
+ width: 100%;
+ height: 100%;
+}
+#col_banner{
+ background-color:#B7EEE1;
+ width:198px;
+}
+#col_menu{
+ background-color:#0F3304;
+ padding:0px;
+ height:41px;
+ /*border:1px solid #0000FF;*/
+ margin-bottom:0px;
+}
+#col_marquee{
+ background-color:#0F3304;
+ font-family:Arial,Helvetica,sans-serif;
+ padding:0px;
+ height:55px;
+ /*border:1px solid #ffff00;*/
+ margin-bottom:0px;
+}
+#aut{
+position:relative;
+top:7px;
+/*vertical-align:middle;
+border:1px solid #FF0000;*/
+}
+#col_aut{
+ background-color:#0F3304;
+ padding:0px;
+ height:35px;
+ /*border:1px solid #ffff00;*/
+ margin-bottom:0px;
+}
+#fil_cuerpo{
+ background-color:#F1FAF2;
+}
+#fil_inferior{
+ background-color:#5E8064;
+ height:50px;
+}
+.contenedor{
+           border:solid 1px #1c3d18;
+		   display:none;
+		   background-color:#e8f9e9;
+		   -moz-border-radius-topright: 5px;
+		   -webkit-border-top-right-radius:5px;
+		   border-top-right-radius:5px;
+		   -moz-border-radius-bottomright: 5px;
+		   -webkit-border-bottom-right-radius: 5px;
+		   border-bottom-right-radius: 5px;
+		   -moz-border-radius-topleft: 5px;
+		   -webkit-border-top-left-radius: 5px;
+		   border-top-left-radius: 5px;
+		   -moz-border-radius-bottomleft: 5px;
+		   -webkit-border-bottom-left-radius: 5px;
+		   border-bottom-left-radius: 5px;
+}
+.aut{
+     border:solid 1px #1c3d18;
+	 font-family:Arial, Helvetica, sans-serif;
+	 font-weight:600;
+	 color:#EAEAEA;
+	 text-align:center;
+}
+.boton{
+  border:1px outset #CCCCCC;
+  background-color:#FFFFFF; 
+  background-position:left;
+  background-repeat:no-repeat;
+  padding-left:15px;  
+  margin:2px;
+}
+.boton:hover{
+  border:1px inset #1c3d18;
+  background-color:#F3FCFC;
+  background-position:left;
+  background-repeat:no-repeat;
+  padding-left:15px;
+  margin:2px;
+  cursor:pointer;
+}
+.error{
+  background-position:left;
+  background-repeat:no-repeat;
+  padding-left:20px;
+}
+#icono_titulo{
+ background-position:left;
+ background-repeat:no-repeat;
+ width:20px;
+}
+.campos_texto{
+ border: 1px solid #32702c;
+}
+.label{
+ font-family:Arial, Helvetica, sans-serif;
+ color: #558554;
+ }
